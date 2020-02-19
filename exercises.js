@@ -177,7 +177,7 @@ z = 2
 const V = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 let i = 0
 const foo = function (x) {
-   return x = x + 1
+   return x + 1
 }
 V[1] = 12
 V[1] = foo(V[i + 1])
