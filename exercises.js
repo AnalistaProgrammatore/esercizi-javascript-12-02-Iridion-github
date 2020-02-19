@@ -102,13 +102,12 @@ AMBIENTE DEL 2° IF:{
 let x = 1
 const g = function (h) {
    let x = 2
-   console.log("Calling h, while inside g, with param set as 3 returns ", h(3))
    return h(3) + x //7 + 2
 }
 if (true) {
    let x = 4
    const f = function (y) {
-      return x + y //3 + 4
+      return x + y //4 + 3
    }
    let z = g(f) //returns 9
 }
